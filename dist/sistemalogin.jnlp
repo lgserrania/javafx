@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="sistemalogin.jnlp">
+  <information>
+    <title>sistemalogin</title>
+    <vendor>CLIENTE</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\mssql-jdbc-6.4.0.jre7.jar" size="1111395" download="eager" />
+    <jar href="lib\mssql-jdbc-6.4.0.jre8.jar" size="1111548" download="eager" />
+    <jar href="lib\mssql-jdbc-6.4.0.jre9.jar" size="1123080" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.11.jar" size="2036609" download="eager" />
+    <jar href="sistemalogin.jar" size="8026" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="sistemalogin" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="controller.switchScenes"  name="sistemalogin" />
+  <update check="always"/>
+</jnlp>
