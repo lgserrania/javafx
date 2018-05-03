@@ -8,7 +8,8 @@
 
 <GridPane   fx:controller="controller.loginController"
             xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
-            styleClass="root">
+            styleClass="root"
+            fx:id="painel">
             
     <padding>
         
@@ -19,19 +20,7 @@
     <Text   text="Bem Vindo" id="welcome-text"
             GridPane.columnIndex="0" GridPane.rowIndex="0"
             GridPane.columnSpan="2"/>
- 
-    <Label  text="Usuário:"
-            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
- 
-    <TextField  fx:id="usuario"
-            GridPane.columnIndex="1" GridPane.rowIndex="1"/>
- 
-    <Label  text="Senha:"
-            GridPane.columnIndex="0" GridPane.rowIndex="2"/>
- 
-    <PasswordField  fx:id="pass" 
-                    GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-    
+       
     <HBox   spacing="10" alignment="bottom_right" 
             GridPane.columnIndex="1" GridPane.rowIndex="4">
             <Button     text="Logar"     
